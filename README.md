@@ -60,4 +60,8 @@ all currently installed plugins.
 - Connectbot: Android SSH client. [Source](https://github.com/connectbot/connectbot)
 
 - Android Terminal Emulator: Android terminal app which Termux terminal handling
-  is based on. Inactive. [Source](https://github.com/jackpal/Android-Terminal-Emulator).
+  is based on. Inactive. [Source](https://github.com/jackpal/Android-Terminal-Emulator2
+
+
+
+
